@@ -10,8 +10,6 @@ canvas {
   display: block;
   margin: 0 auto;
   background-color: #c8e6ff;
-  touch-action: none; /* Prevent touch scrolling */
-}
 
 @media (max-width: 600px) {
   canvas {
