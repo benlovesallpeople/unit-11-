@@ -9,7 +9,6 @@ function setup() {
   createCanvas(500, 500);
   bgColor = color(200, 230, 255);
   
-  // Initialize snowflakes
   for (let i = 0; i < 100; i++) { 
     addSnowflake();
   }
@@ -22,11 +21,9 @@ function draw() {
 }
 
 function drawScene() {
-  // Draw house
   textSize(100);
   text(decor[0], width/8, height - 180);
   
-  // Draw trees
   textSize(130);
   for (let i = 0; i < 8; i++) {
     text(trees[i % trees.length], -50 + i*60, height-20);
